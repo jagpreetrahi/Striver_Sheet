@@ -5,7 +5,7 @@ using namespace std;
 int  print(int n , int i){
     
     if(i > n){
-        return; 
+        return ;  
     }
    
     return i + print(n , i + 1);
