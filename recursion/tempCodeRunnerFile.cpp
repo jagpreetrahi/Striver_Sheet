@@ -1,18 +1,20 @@
-// Fibonacci Number
-#include<iostream>
-using namespace std;
+void fibonacci(int n){
 
-void print(int n , int sum, int i){
+//     if(n == 0){
+//         cout << 0;
+//     }
+//     else{
+//         int  secondLast = 0;
+//         int last = 1;
+//         int current;
+//         cout<<secondLast <<" " <<last <<" ";
+//         for(int i = 2; i <= n; i++){
+//             current = secondLast + last;
+//             secondLast = last;
+//             last = current;
+//             cout<<current<<" ";
+//         }
+        
+//     }
     
-    if(i > n){
-        return; 
-    }
-    print(n , sum , sum + 1);
-    
-}
-
-int main(){
-
-    int n = 5;
-    print(n , 0, 0);
-}
+// }
